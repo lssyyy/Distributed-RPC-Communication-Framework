@@ -1,1 +1,7 @@
 # Distributed-RPC-Communication-Framework
+基于muduo网络库和protobuf实现的分布式RPC通信框架
+
+1.使用muduo网络库实现高并发的RPC同步调用请求处理
+2.使用Protobuf作为RPC方法调用和参数的序列化和反序列化
+3.基于线程安全的缓冲队列实现异步日志输出
+4.使用zookeeper作为服务治理中间件，提供服务注册和服务发现功能
